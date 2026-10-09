@@ -1,0 +1,13 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+scipy
+requests
+datasets
+huggingface-hub
+pyarrow
+fastparquet
+jupyter
+notebook
