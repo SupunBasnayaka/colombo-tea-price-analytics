@@ -112,3 +112,9 @@ python main.py
   If you encounter an error stating a package is missing, verify that your virtual environment is active (`(venv)` shown in prompt) and re-run `pip install -r requirements.txt`.
 * **Dataset Connection Warning:**
   The dataset downloads live from Hugging Face. Ensure your computer is connected to the internet during execution.
+
+  Model Evaluation Summary:
+                        Model  RMSE (LKR)  MAE (LKR)  R² Score
+0  Multiple Linear Regression      274.52     157.85    0.8064
+1            Ridge Regression      274.52     157.80    0.8064
+2     Random Forest Regressor      129.05      62.93    0.9572
